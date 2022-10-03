@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+.navbar navbar-expand-lg {
+  background-color: #00358e;
+}
+.logo {
+  max-height: 70px;
+}
+
+.perfil {
+  height: 200px;
+  border-radius: 80%;
+  border: solid black 1px;
+}
+#carouselExampleIndicators {
+  border: solid black 1px;
+
+  width: 65%;
+  height: auto;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #e0c3fc;
+}
+
+#foto {
+  background-color: aliceblue;
+  height: 250px;
+  -webkit-box-shadow: -27px 4px 25px 0px rgba(0, 0, NaN, 0.75);
+  -moz-box-shadow: -27px 4px 25px 0px rgba(0, 0, NaN, 0.75);
+  box-shadow: -27px 4px 25px 0px rgba(0, 0, NaN, 0.75);
+  border: solid 2px gainsboro;
+  border-radius: 30%;
+}
+
+.estrella {
+  max-width: 40px;
+}
+
+#habilidades {
+  background-color: aliceblue;
+  border: solid 2px gainsboro;
+  border-radius: 30%;
+}
+.principal {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
