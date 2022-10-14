@@ -19,12 +19,14 @@ body {
   border-radius: 80%;
   border: solid black 1px;
 }
-#carouselExampleIndicators {
-  border: solid black 1px;
-
-  width: 65%;
+#carouselExampleControls {
+  width: auto;
   height: auto;
   object-fit: cover;
+}
+.img-carru {
+  width: 800px;
+  height: 800px;
 }
 
 footer {
